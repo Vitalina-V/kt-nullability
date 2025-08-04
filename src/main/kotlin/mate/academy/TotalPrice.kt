@@ -5,4 +5,5 @@ package mate.academy
     If the price is not provided, use default price per product equal to 29.99
  */
 const val DEFAULT_PRODUCT_PRICE = 29.99
-fun calculateTotalPrice(pricePerProduct: Double?, count: Int) : Double = (pricePerProduct?:DEFAULT_PRODUCT_PRICE) * count
+fun calculateTotalPrice(pricePerProduct: Double?, count: Int) : Double
+= (pricePerProduct?:DEFAULT_PRODUCT_PRICE) * count
